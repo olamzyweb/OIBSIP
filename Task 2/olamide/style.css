@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  margin-top: 5px;
+}
+.hero{
+    height: 100vh;
+    background: linear-gradient(135deg, #2c5364, #203a43, #0f2027,);
+    width: 100%;
+    padding: 4px;
+    /* margin-top: 10px; */
+
+}
+
+
+
+
+nav {
+  /* background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+
+  background-color: rgba(0, 0, 0, 0.342); /* Slightly transparent black */
+padding: 10px 20px;
+position: fixed; /* Keeps the navbar fixed while scrolling */
+top: 20px; /* Adds margin from the top */
+left: 50%;
+transform: translateX(-50%); /* Centers the navbar horizontally */
+z-index: 1000; /* Ensures it stays above other elements */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 10px; /* Adds rounded corners to the navbar */
+}
+
+ /* Navigation Links */
+ .nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  transition: color 0.3s ease-in-out;
+}
+.nav-menu li a{
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+ div .hero-content{
+    /* position: relative; */
+    margin-top: 14px;
+}
+.hero-text{
+   color: #e9ecef;
+    
+}
+.hero-text h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+.hero-text p{
+    font-size: 40px;
+    font-weight: 300;
+}
+.hero-img{
+  margin-top: 10px;
+  border-radius: 500px;
+  max-width: 100%;
+  border: #007BFF 1px solid;
+
+}
+/* .hero-content img{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-right: 10%;
+    top: 30%;
+    bottom: 50%;
+    transform: translateY(30%);
+    border-radius: 300px;
+    border: 1px solid #7fc9e9;
+} */
+
+
+
+/* h1{
+  color: #e9ecef;
+  font-size: 70px;
+} */
+.h1-text{
+  color: #e9ecef;
+  font-size: 40px;
+}
+
+#hire{
+  border-radius: 17px;
+  width: 40%;
+}
+
+
+
+
+/* --------------------------------------- */
+.about {
+    color: white;
+    padding: 5px;
+}
+
+.card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('images/ola.jpg');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+
+  /* Skills Section Container */
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Skill Labels */
+  .skill label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+  
+  /* Progress Bar */
+  .progress {
+    background-color: #e9ecef; /* Lighter background for the progress bar container */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+   width: 100%;
+    height: 25px; /* Adjust height */
+  }
+  
+  .progress-bar {
+    font-weight: bold;
+    font-size: 0.9rem; /* Adjust text size */
+    line-height: 25px; /* Center text vertically */
+    color: #fff; /* Text color inside progress bar */
+    text-align: center;
+    transition: width 0.6s ease; /* Smooth animation */
+  }
+  
+  .progress-bar.bg-primary {
+    background-color: #007BFF; /* Blue for primary */
+  }
+  
+  .progress-bar.bg-success {
+    background-color: #68836e; /* Green for success */
+  }
+  
+  .progress-bar.bg-warning {
+    background-color: #ffc30fe3; /* Yellow for warning */
+  }
+  
+  /* Add a hover effect */
+  .progress-bar:hover {
+    opacity: 0.8;
+  }
+  div .form-label{
+    color: #e9ecef;
+  }
+  
+  /* Percentage Text Alignment */
+  .skill span {
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  .skill-text{
+    color: #e9ecef;
+  }
+
+
+/* --------project card styling--------------- */
+
+ div .card{
+  /* background-color: #2c5364; */
+  border-radius: 4px;
+  border: #007BFF 1px solid;
+  /* padding: 2px; */
+}
+
+ div .card-title{
+  /* text-align: center; */
+  padding: 3px;
+  font-weight: 300;
+}
+
+div .card-text{
+ /* padding: 3px; */
+
+
+}
+div .card-img{
+  width: 100%;
+  height: 20%;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+
+  
+  footer{
+    width: 100%;
+  }
+  footer p{
+    color: #e9ecef;
+    text-align: center;
+  }
