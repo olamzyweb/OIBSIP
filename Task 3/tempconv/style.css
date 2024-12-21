@@ -1,0 +1,47 @@
+
+body {
+    background: linear-gradient(120deg, #ff9a8b, #fecfef, #a1c4fd);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.converter-card {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background: linear-gradient(120deg, #a1c4fd, #fecfef, #ff9a8b);
+    animation: gradientBTN 10s ease infinite;
+    border: none;
+    color: white;
+    background-size: 400% 400%;
+}
+@keyframes gradientBTN {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
